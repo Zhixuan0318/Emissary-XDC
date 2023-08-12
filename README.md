@@ -1,12 +1,10 @@
-<img src="https://github.com/Zhixuan0318/Emissary-XDC/assets/69501009/951fd418-f9ec-495d-9c2d-86da8b59749e" width=90>
+<img src="https://github.com/Zhixuan0318/Emissary-XDC/assets/69501009/dcace16d-3958-4486-b24e-1cfbd40d6561" width=90>
 
 # Introducing Emissary
 
-Emissary is a comprehensive payout solution designed for Polkadot and Substrate-based Parachains. This platform is specifically tailored for DAO organizations, Web 3.0 companies, and individual projects, offering seamless payout management 🪙 With Emissary, you can easily create your own white-label token emissary, simplifying the onboarding process for your community members and users.
+Emissary is a comprehensive payout solution designed for the XDC network. This platform is specifically tailored for DAO organizations, Web 3.0 companies, and individual projects, offering seamless payout management in the XDC ecosystem 🪙 With Emissary, you can easily create your own white-label token emissary, simplifying the onboarding process for your community members and users.
 
 Consolidating all essential features in one place, Emissary provides a convenient and efficient one-stop solution for your payout needs. From handling transfer requests and implementing multi-signature safe to setting up token-gated access and incorporating NFT-derived functionalities, our platform covers it all. Additionally, Emissary facilitates treasury management with role setup, ensuring smooth and organized payout operations.
-
-Our platform boasts extensive compatibility, currently supporting **70 networks** (Polkadot, Kusama, and various Substrate-based Parachains). Furthermore, we offer compatibility with **300+ token assets** within the ecosystem.
 
 <hr>
 
@@ -38,7 +36,7 @@ This video is also available on Youtube: [Watch here](https://www.youtube.com/wa
 
 ![screenshots4](https://github.com/Zhixuan0318/Emissary/assets/69501009/4269d983-d24a-48be-b1d5-2840d6bcd87a)
 
-Emissary offers support to numerous organizations and projects within 77 networks, including Polkadot, Kusama, and other Substrate-based Parachains. Each of these entities possesses its own community and unique brand identity. Therefore, it is crucial to enable users to create and customize their token emissary. Emissary simplifies the entire token emissary creation process, providing features such as general information input, color theme selection, logo media integration, token assets setup, custom emissary subdomain, and more.
+Emissary offers support to numerous organizations and projects within the XDC network. Each of these entities possesses its own community and unique brand identity. Therefore, it is crucial to enable users to create and customize their token emissary. Emissary simplifies the entire token emissary creation process, providing features such as general information input, color theme selection, logo media integration, token assets setup, custom emissary subdomain, and more.
 
 ### 2️⃣ User Onboarding Experience
 
@@ -50,7 +48,7 @@ The first option involves using a unique emissary code. Whenever a new token emi
 
 Alternatively, the second option allows clients to access the login page by directly browsing the custom domain of your token emissary. With these two choices available, your clients can select the method that best suits their preferences and get started with ease!
 
-### 3️⃣ Transfer Request Management
+### 3️⃣ Transfer Request Management (XRC20 token assets)
 
 ![screenshots1](https://github.com/Zhixuan0318/Emissary/assets/69501009/f3b7190e-08de-4ccd-b33e-a491a05a8257)
 
@@ -66,7 +64,7 @@ To ensure transparency and accountability, both parties can track all transactio
 
 Emissary's multi-signature safe serves as a secure solution tailored for milestone-based projects, separate payouts, or lump-sum payments. The key distinction between a transfer request and the multi-sig safe lies in the approval process. With the multi-signature safe, a designated group of controllers must collectively approve the transaction before the transfer can take place.
 
-To clarify, once the number of controllers approving the transaction surpasses a specified approval threshold, the token assets held within the multi-signature smart contract will be transferred to the intended recipient's wallet. The design of Emissary's multi-sig safe is built upon the architecture of the SAFE core protocol and incorporates advanced implementation techniques for multi-signature smart contracts, ensuring a robust and reliable mechanism for secure fund transfers.
+To clarify, once the number of controllers approving the transaction surpasses a specified approval threshold, the token assets held within the multi-signature smart contract will be transferred to the intended recipient's wallet. The design of Emissary's multi-sig safe is built upon the architecture of the SAFE core protocol and incorporates advanced implementation techniques for multi-signature smart contracts on the XDC network, ensuring a robust and reliable mechanism for secure fund transfers.
 
 ### 5️⃣ Decentralized Transfer Record Memo
 
@@ -76,7 +74,7 @@ In token asset transfers and treasury management for DAO organizations and Web 3
 
 IPFS is a decentralized storage network powered by Filecoin, ensuring that the transfer record memos are stored in a distributed and tamper-resistant manner. Each token asset transfer record memo is assigned a unique CID (Content Identifier) that facilitates easy retrieval. Furthermore, these records can be readily utilized by third-party applications, fostering greater accessibility and utilization of the data. This approach strengthens transparency and enables seamless integration of Emissary's services with other blockchain-based platforms and applications.
 
-### 6️⃣ Token-Gated Accesess Setup
+### 6️⃣ Token-Gated (XRC721 token assets) Accesess Setup
 
 ![screenshots7](https://github.com/Zhixuan0318/Emissary/assets/69501009/c295e8b7-c72f-406c-9deb-a26e2ce02911)
 
@@ -109,19 +107,19 @@ A groundbreaking expansion that takes Emissary to new heights. Our vision is to 
 
 One of the most exciting aspects of this endeavor is our commitment to being open-source. We firmly believe in fostering collaboration and innovation within the community. To facilitate this, we will provide dedicated SDK and APIs, empowering developers to launch their custom emissary plugins, and further expanding the capabilities of our platform.
 
-By venturing into the plugin marketplace, Emissary is poised to unlock unprecedented opportunities for seamless and versatile payout solutions. This advancement marks a significant milestone in our mission to revolutionize treasury management and foster the growth of Web 3.0 businesses. Join us as we embark on this remarkable journey towards a more interconnected and dynamic future in the Polkadot and Substrate ecosystem.
+By venturing into the plugin marketplace, Emissary is poised to unlock unprecedented opportunities for seamless and versatile payout solutions. This advancement marks a significant milestone in our mission to revolutionize treasury management and foster the growth of Web 3.0 businesses. Join us as we embark on this remarkable journey toward a more interconnected and dynamic future in the XDC ecosystem.
 
-# ❤️ How to Test? 
+# How to Test? ❤️ 
 
-To skip the part of creating a whole new token emissary for testing, I created a testing token emissary. It is an example token emissary for Polkadot community! Below are the two methods by which you can test Emissary:
+To skip the part of creating a whole new token emissary for testing, I created a testing token emissary. It is an example token emissary for the XDC community! Below are the two methods by which you can test Emissary:
 
 ### Via unique code
 
-![test1](https://github.com/Zhixuan0318/Emissary/assets/69501009/f09b94e7-4172-44fb-a4c6-9c5965fa23b1)
+TBA
 
 ### Via custom URL
 
-![test2](https://github.com/Zhixuan0318/Emissary/assets/69501009/7706162f-382b-4507-b52b-c87b9d6c5c68)
+TBA
 
 
 
